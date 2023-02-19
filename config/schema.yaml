@@ -1,0 +1,37 @@
+columns:
+- class : category
+- timestamp : str
+- active_power_calculated_by_converter : float
+- active_power_raw : float
+- ambient_temperature : float
+- generator_speed : float
+- generator_winding_temp_max : float
+- grid_power10min_average : float
+- nc1_inside_temp : float
+- nacelle_temp : float
+- reactice_power_calculated_by_converter : float
+- reactive_power : float
+- wind_direction_raw : float
+- wind_speed_raw : float
+- wind_speed_turbulence : float
+- turbine_id : srt
+- Target : float
+
+numerical_columns:
+- active_power_calculated_by_converter
+- active_power_raw
+- ambient_temperature
+- generator_speed
+- generator_winding_temp_max
+- grid_power10min_average
+- nc1_inside_temp
+- nacelle_temp
+- reactice_power_calculated_by_converter
+- reactive_power
+- wind_direction_raw
+- wind_speed_raw
+- wind_speed_turbulence
+
+drop_columns:
+- turbine_id
+- timestamp
